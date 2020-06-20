@@ -1,0 +1,36 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+}
+
+h1,
+main,
+footer {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 25vh 0 10vh;
+    font-size: 3em;
+    font-weight: 800;
+    color: mistyrose;
+    text-shadow: black;
+}
+
+main {
+    margin-bottom: 10vh;
+    color: mistyrose;
+}
+
+main footer {
+    font-weight: 700;
+}
+
+footer {
+    padding: 1vh 0 1vh;
+    color: mintcream;
+    background-color: midnightblue;
+    font-size: 1.5em;
+}

@@ -4,8 +4,8 @@ xmlhttp.onreadystatechange = function() {
         var apiResult = JSON.parse(this.responseText);
 
         //Code Dealing With The API Data Goes Here
-        console.log(apiResult.name);
-        console.log(apiResult.weather[0].description);
+        // console.log(apiResult.name);
+        // console.log(apiResult.weather[0].description);
 
         //variables from API
         var cityName = apiResult.name;
